@@ -10,7 +10,7 @@ yarn webpack --watch
 
 ## Detail
 
-To setup the mock data in `src` run `node generate [dirs]`. `dirs` will default to 4090 which is where it starts failing (I'm guessing it's actually adding 4,096 watchers though).
+To setup the mock data in `src` run `node generate [dirs]`. `dirs` will default to 4096 which is where it starts failing.
 
 This will generate `dirs` directories each with an index.js with an export which are imported by the main index.js in `src`.
 

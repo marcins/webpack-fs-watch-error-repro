@@ -6,7 +6,7 @@ const path = require('path');
 rimraf.sync('src');
 mkdirp.sync('src');
 
-const DIRS = +(process.argv[2] || 4090);
+const DIRS = +(process.argv[2] || 4096);
 console.log(`Creating ${DIRS} directories..`);
 const requires = [];
 const logs = [];
