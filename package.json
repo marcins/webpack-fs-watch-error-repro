@@ -1,0 +1,14 @@
+{
+  "name": "wpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp": "^1.0.4",
+    "webpack": "^5.0.0-beta.22",
+    "webpack-cli": "^4.0.0-beta.8"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
